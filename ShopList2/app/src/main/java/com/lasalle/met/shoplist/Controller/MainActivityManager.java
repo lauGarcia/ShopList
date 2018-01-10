@@ -24,4 +24,8 @@ public class MainActivityManager {
     public void setItemLists(ArrayList<ItemList> itemLists) {
         this.itemLists = itemLists;
     }
+
+    public void addItem(){
+        this.itemLists.add(new ItemList("Pan",5));
+    }
 }
